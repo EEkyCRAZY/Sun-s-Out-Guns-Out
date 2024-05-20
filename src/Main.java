@@ -3,8 +3,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        window wing;
+        window gwind;
+        gpanel gpan = null;
 new game();
-wing = new window();
+gwind = new window(gpan);
     }
 }
